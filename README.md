@@ -25,7 +25,7 @@ On Windows (non-posix) use scipts: `pnpm --shell-emulator <script_name>`
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit patoi/svelte-vite-tailwind-template svelte-vite-tailwind-app
+pnpm dlx degit patoi/svelte-vite-tailwind-template svelte-vite-tailwind-app
 cd svelte-vite-tailwind-app
 ```
 
