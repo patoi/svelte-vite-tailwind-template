@@ -1,4 +1,10 @@
+/public
+pnpm-lock.yaml
+
+# from .gitignore
+
 dist/
+.vscode/
 .DS_Store
 .routify
 /test-results
@@ -76,7 +82,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+# .env
 .env.test
 .env.production
 
