@@ -16,6 +16,7 @@ specifiers:
   prettier: ^2.4.1
   prettier-plugin-svelte: ^2.4.0
   stylelint: ^14.0.1
+  stylelint-config-prettier: ^9.0.3
   stylelint-config-standard: ^23.0.0
   svelte: ^3.44.1
   tailwindcss: ^2.2.19
@@ -37,6 +38,7 @@ devDependencies:
   prettier: 2.4.1
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.44.1
   stylelint: 14.0.1
+  stylelint-config-prettier: 9.0.3_stylelint@14.0.1
   stylelint-config-standard: 23.0.0_stylelint@14.0.1
   svelte: 3.44.1
   tailwindcss: 2.2.19_0c54bdadaf9d9c9c6c134cb2c6c061a3
@@ -2892,6 +2894,16 @@ packages:
 
   /style-search/0.1.0:
     resolution: {integrity: sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=}
+    dev: true
+
+  /stylelint-config-prettier/9.0.3_stylelint@14.0.1:
+    resolution: {integrity: sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    peerDependencies:
+      stylelint: '>=11.0.0'
+    dependencies:
+      stylelint: 14.0.1
     dev: true
 
   /stylelint-config-recommended/6.0.0_stylelint@14.0.1:
