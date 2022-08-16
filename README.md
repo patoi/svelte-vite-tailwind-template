@@ -16,7 +16,7 @@ Extended with enhanced tooling:
 
 Turn on pnpm:
 
-`nvm install v16.13.0 && corepack enable && corepack prepare --activate pnpm@6.21.1 && pnpm -v`
+`nvm install v16.16.0 && corepack enable && corepack prepare --activate pnpm@7.9.0 && pnpm -v`
 
 On Windows (non-posix) use scipts: `pnpm --shell-emulator <script_name>`
 

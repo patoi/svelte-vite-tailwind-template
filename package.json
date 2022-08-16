@@ -5,9 +5,10 @@
 	"type": "module",
 	"license": "MIT",
 	"description": "Template project with Svelte, Vite, TailWindCSS, Stylelint, ESLint, Commitlint, Prettier, Husky/lint-staged and pnpm",
+	"packageManager": "pnpm@7.9.0",
 	"engines": {
-		"node": ">=16.13.0",
-		"pnpm": ">=6.20.4"
+		"node": ">=16.16.0",
+		"pnpm": ">=7.9.0"
 	},
 	"author": "István Pató https://twitter.com/@patoistvan",
 	"config": {
