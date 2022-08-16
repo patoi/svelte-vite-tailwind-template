@@ -37,7 +37,7 @@ cd svelte-vite-tailwind-app
 cd svelte-vite-tailwind-app
 pnpm install
 pnpm dev
-open http://localhost:3000/
+open http://localhost:5173/
 ```
 
 2. Changing `src/App.svelte` class attributes, browser automatically updates page.
