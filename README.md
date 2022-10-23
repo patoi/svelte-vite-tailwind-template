@@ -10,13 +10,13 @@ Extended with enhanced tooling:
 - Prettier
 - Husky/lint-staged
 - .vscode/ directory with disabled VS Code CSS warning, and recommended extensions
-- and pnpm!
+- and **pnpm!**
 
 **Recommended: Node.js v16**
 
 Turn on pnpm:
 
-`nvm install v16.16.0 && corepack enable && corepack prepare --activate pnpm@7.9.0 && pnpm -v`
+`nvm install v18 && corepack enable && corepack prepare --activate pnpm@7.12.2 && pnpm -v`
 
 On Windows (non-posix) use scipts: `pnpm --shell-emulator <script_name>`
 
